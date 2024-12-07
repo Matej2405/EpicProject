@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicProjectBackend", "EpicProjectBackend\EpicProjectBackend.csproj", "{E10236C4-05F5-48FF-BFB1-193CDD410C47}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{D061238E-C215-4E7A-9017-A8F5B9F2EB96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E10236C4-05F5-48FF-BFB1-193CDD410C47} = {D061238E-C215-4E7A-9017-A8F5B9F2EB96}
 	EndGlobalSection
 EndGlobal
